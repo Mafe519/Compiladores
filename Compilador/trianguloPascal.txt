@@ -1,0 +1,23 @@
+begin
+    var rows;
+    var i;
+    var j;
+    var num;
+    var subsum;
+    (*soma = 1+2;*)
+
+    read(rows);
+    
+    for (i = 0; i < rows; i = i + 1) {
+        for (j = 0; j <= i; j = j + 1) {
+            if (j == 0 || j == i) then {
+                write("1 ");
+            } else {
+                subsum = i - j + 1;
+                num= num * subsum / j;
+                write(num);
+            }
+        }
+        write("\n");
+    }
+end

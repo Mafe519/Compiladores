@@ -1,0 +1,23 @@
+begin
+var a;
+var b;
+var 1i;
+var sum;
+a = 2;
+b = 3;
+
+if(a == b) then{
+	sum = a+b;
+}
+
+for(i=0; i<10;i=i+1)
+{
+	write(i);
+}
+
+while i != 9 do
+{
+	write(i);
+	i = i + 1;
+};
+end 
